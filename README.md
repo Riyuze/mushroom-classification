@@ -71,6 +71,7 @@ I augmented the data using:
 - https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomFlip
 - https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomRotation
 - https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomZoom
+
 Which basically will randomly **rotate**, **flip**, and **zoom** the images when training.
 
 ![Augmented Data](https://github.com/Riyuze/mushroom-classification/blob/main/data-augmentation.png)
@@ -84,9 +85,11 @@ More about **ResNet50** here:
 https://www.tensorflow.org/api_docs/python/tf/keras/applications/resnet50
 
 Here is the result for the basic **Sequential** model:
+
 ![Sequential](https://github.com/Riyuze/mushroom-classification/blob/main/normal-result.jpeg)
 
 Here is the result for the **ResNet50** model:
+
 ![ResNet50](https://github.com/Riyuze/mushroom-classification/blob/main/resnet50-result.png)
 
 As you can see the ResNet50 model has far greater validation accuracy and smaller loss.
