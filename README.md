@@ -73,7 +73,7 @@ I augmented the data using:
 - https://www.tensorflow.org/api_docs/python/tf/keras/layers/RandomZoom
 Which basically will randomly **rotate**, **flip**, and **zoom** the images when training.
 
-![Augmented Data](https://github.com/Riyuze/mushroom-classification/blob/maindata-augmentation.png)
+![Augmented Data](https://github.com/Riyuze/mushroom-classification/blob/main/data-augmentation.png)
 
 
 ## Results
