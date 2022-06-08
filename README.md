@@ -100,3 +100,6 @@ https://www.tensorflow.org/tutorials/images/classification
 
 
 
+## Notes
+If the notebook is taking too long to load you can use:
+https://nbviewer.org/
